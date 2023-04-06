@@ -166,7 +166,7 @@ button:hover{
 /* footer-ის დასაწყისი */
 footer{
     width: 90%;
-    height: 30vh;
+    height: 250px;
     background-color: #13345B;
     margin: 0 auto;
     display: flex;
