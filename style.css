@@ -1,0 +1,206 @@
+.conteiner {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+/* ჰედერის სადაწყისი */
+header {
+    width: 90%;
+    background-color: #13345B;
+    text-decoration: none;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 40px;
+}
+
+
+li {width: 30%;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    text-decoration: none;
+    color: #FDD504
+}
+
+li:hover {
+    cursor: pointer;
+    text-shadow: 5px 4px 4px rgba(227, 252, 3, 0.6);
+}
+
+.contact {
+    color: #FD0404;
+}
+
+/* ფორმ-ის დასაწყისი */
+
+h1 {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 88px;
+
+}
+
+.info_conteiner {
+    width: 90%;
+    margin-inline: auto;
+    display: flex;
+
+
+}
+
+.info {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.info2 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+
+}
+
+.lab_in {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #13345B;
+
+}
+
+.forminfo {
+    width: 80%;
+    height: 38px;
+    background: #B3E9F5;
+}
+
+.choose {
+    width: 90%;
+    margin-inline: auto;
+   
+    display: flex;
+
+}
+
+p {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    color: #15C1E7;
+
+
+}
+
+label {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #13345B;
+}
+.click{
+    width: 90%;
+    margin: 0 auto;
+   display: flex;
+    text-align: center;
+    justify-content: space-around;
+   
+}
+button{
+    transition: all;
+    transition-duration: 0.2s;
+}
+
+button:hover{
+    transform: scale(1.2) ;
+-webkit-transform: scale(1.2) ;
+-moz-transform: scale(1.2) ;
+
+}
+
+.send{
+    width: 35%;
+    height: 108px;
+    border: solid 2px #FDD504;
+    background: #FDD504;
+    border-radius: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+
+}
+.reset{
+    width: 35%;
+    height: 108px;
+    border: solid 2px #15C1E7;
+    background: #15C1E7;
+    border-radius: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+/* footer-ის დასაწყისი */
+footer{
+    width: 90%;
+    height: 30vh;
+    background-color: #13345B;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footdiv{
+ display: flex;
+padding-top: 160px;
+}
+
+
+.fa-youtube {
+    font-size: 100px;
+    padding-left: 60px;
+}
+.fa-twitter {
+    font-size: 100px;
+    padding-left: 60px;
+}
+.fa-square-facebook{
+    font-size: 100px;
+    padding-left: 60px;
+}
+.fa-instagram{
+    font-size: 100px;
+    padding-left: 60px;
+}
+i{
+    transition: all;
+    transition-duration: 0.2s;
+}
+i:hover{
+    transform: scale(1.2) skew(10deg);
+    -webkit-transform: scale(1.2) skew(10deg);
+    -moz-transform: scale(1.2) skew(10deg);
+}
